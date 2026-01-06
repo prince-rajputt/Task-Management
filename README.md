@@ -8,67 +8,31 @@ The main goal of this project is to learn and demonstrate full-stack development
 🚀 Features
 
 Create new tasks
-
 View all tasks
-
 Filter tasks by status (pending / in-progress / completed)
-
 Update task status
-
 Delete tasks
-
 Real-time task updates using WebSocket (Socket.io)
-
 RESTful API architecture
-
 Basic input validation and error handling
 
 🛠️ Tech Stack
-
 Frontend
-
 React.js
-
 Axios
-
 Socket.io Client
-
 Backend
-
 Node.js
-
 Express.js
-
 Socket.io
-
 Database
-
 PostgreSQL
 
 Tools
-
 VS Code
 
 npm
-
 pgAdmin
-
-📂 Project Structure
-task-manager-app
-│
-├── backend
-│   ├── index.js
-│   ├── db.js
-│   ├── routes
-│   │   └── tasks.js
-│   └── package.json
-│
-├── frontend
-│   ├── src
-│   ├── public
-│   └── package.json
-│
-└── README.md
 
 🔌 API Endpoints
 Method	Endpoint	Description
@@ -78,31 +42,20 @@ GET	/api/tasks?status=pending	Filter tasks by status
 PATCH	/api/tasks/:id	Update task status
 DELETE	/api/tasks/:id	Delete a task
 🗄️ Database Schema
-
 Table: tasks
-
 id (Primary Key)
-
 title
-
 description
-
 status (pending / in-progress / completed)
-
 createdAt
-
 updatedAt
 
 ⚡ Real-Time Functionality
 
 Socket.io is used to broadcast task events such as:
-
 Task creation
-
 Task updates
-
 Task deletion
-
 All connected clients receive updates instantly without page refresh.
 
 ▶️ How to Run the Project
