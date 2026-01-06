@@ -32,7 +32,8 @@ PostgreSQL
 Tools
 VS Code
 
-npm
+npm<img width="959" height="539" alt="Screenshot 2026-01-06 165326" src="https://github.com/user-attachments/assets/2f53fac6-6b83-4740-94dc-006c4678245c" />
+
 pgAdmin
 
 🔌 API Endpoints
