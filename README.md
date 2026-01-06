@@ -1,6 +1,7 @@
 📝 Task Management REST Application with Real-Time Updates
 📌 Overview
-![Task Managment Website ](Screenshot 2026-01-06 165326)
+
+<img width="959" height="539" alt="Screenshot 2026-01-06 165326" src="https://github.com/user-attachments/assets/df665c39-6f0c-4533-aa64-a850612f4bd0" />
 
 This project is a full-stack Task Management web application that allows users to create, view, update, and delete tasks. The application uses REST APIs for data operations and WebSockets (Socket.io) to provide real-time updates across all connected clients.
 
@@ -32,8 +33,7 @@ PostgreSQL
 Tools
 VS Code
 
-npm<img width="959" height="539" alt="Screenshot 2026-01-06 165326" src="https://github.com/user-attachments/assets/2f53fac6-6b83-4740-94dc-006c4678245c" />
-
+npm
 pgAdmin
 
 🔌 API Endpoints
@@ -65,6 +65,8 @@ Backend
 cd backend
 npm install
 npm run dev
+
+
 
 Frontend
 cd frontend
