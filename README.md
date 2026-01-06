@@ -66,6 +66,7 @@ cd backend
 npm install
 npm run dev
 
+<img width="959" height="539" alt="Screenshot 2026-01-06 165352" src="https://github.com/user-attachments/assets/db04d743-b178-44f8-801d-772d6f0e4ad9" />
 
 
 Frontend
